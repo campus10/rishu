@@ -859,7 +859,7 @@
           tr.innerHTML = `<td>${u.email}</td><td>${u.role}</td><td>${u.approved ? "Approved" : "Pending"}</td>
             <td style="display:flex;gap:8px;">
               <button data-approve="${u.uid}">Approve</button>
-              <button data-reject="${u.uid}" style="background:#e74c3c;color:#fff;border-radius:6px;">Reject</button>
+              <button data-reject="${u.uid}" style="background:#e74c3c;color:#fff;border-radius:999px;">Reject</button>
             </td>`;
           bodyPending.appendChild(tr);
         });
